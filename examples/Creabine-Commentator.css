@@ -1,0 +1,114 @@
+ .creabinecarousel{
+     position: relative;
+     overflow: hidden;
+     margin: 0 auto;
+ }
+ 
+.creabinecarousel .creabine-inner{
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+}
+
+.creabinecarousel .creabine-inner .creabine-item{
+    position: absolute;
+    display: inline-block;
+    z-index: 0;
+    padding: 0;
+    opacity: 0.4;
+    transition: opacity 0.4s;
+    background-color: #fff;
+}
+.creabinecarousel .creabine-inner .creabine-item .creabine-comment{
+    margin: 0 auto;
+    opacity: 0;
+    padding: 0;
+    text-align: center;
+}
+.creabinecarousel .creabine-inner .creabine-item .creabine-logo{
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    opacity: 0;
+}
+.creabinecarousel .creabine-inner .creabine-item .creabine-commentator{
+    margin: 0 auto;
+    margin-top: 10px;
+    opacity: 0;
+    padding: 0;
+}
+.creabinecarousel .dot-box{
+    position: absolute;
+    bottom: 0px;
+    height: 20px;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    z-index: 20;
+    margin: 0;
+    padding-left: 0;
+}
+
+.creabinecarousel .dot-box li{
+    margin:0 1px;
+    display: inline-block;
+    width: 28px;
+    height: 10px;
+}
+
+.creabinecarousel .dot-box li span{
+    display: block;
+    margin-top: 4px;
+    width: 24px;
+    height: 2px;
+    background-color: #dd220b;
+    opacity: 0.2;
+}
+
+.creabinecarousel .dot-box .active span{
+    background-color: #dd220b;
+    opacity: 1;
+}
+.creabinecarousel .creabine-lefBtn{
+    width: 0px;
+    height: 20px;
+    z-index: 500;
+    position: absolute;
+    cursor: pointer;
+}
+/* .creabine-lefBtn:after,  */.creabine-lefBtn:before {
+  border: 10px solid transparent;
+  border-right: 10px solid #fff;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  content: ' '
+}
+.creabine-lefBtn:before {
+  border-right-color: #f00;
+  left: -25px;
+}
+.creabinecarousel .creabine-rightBtn{
+    width: 0px;
+    height: 20px;
+    z-index: 500;
+    position: absolute;
+    cursor: pointer;
+}
+/* .creabine-rightBtn:after,  */.creabine-rightBtn:before {
+  border: 10px solid transparent;
+  border-left: 10px solid #fff;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: -20px;
+  content: ' '
+}
+ 
+.creabine-rightBtn:before {
+  border-left-color: #f00;
+  right: -25px;
+}

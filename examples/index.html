@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="Creabine-Commentator.css">
+  <script src="Creabine-Commentator.js"></script> 
+	<title>Creabine-Commentator</title>
+</head>
+<style>
+  body{
+    background-color: #666;
+  }
+</style>
+<body>
+	<div id="root" style="margin: 0 auto;"></div>
+	<script>
+		
+		var comments = [
+    {
+      content:'Content 1',
+      commentator:'Commentator 1'
+    },
+    {
+      content:'Content 2',
+      commentator:'Commentator 2'
+    },
+    {
+      content:'Content 3',
+      commentator:'Commentator 3'
+    },
+    {
+      content:'Content 4',
+      commentator:'Commentator 4'
+    },
+    {
+      content:'Content 5',
+      commentator:'Commentator 5'
+    }];
+    
+
+  logos = ['1.jpg','2.jpg','3.jpg','4.jpg','5.jpg'];
+
+  var Commentator = new CreabineCommentator({
+      root: "root",
+      comments:comments,
+      logos:logos,
+      width:850,
+      height:250,
+      sizeRate: 7/20,
+      scaleRate: 10/13,
+      movePerVal:20,
+      btn:true,
+      autoScroll:true,
+      scrollDuration:3000,
+      //singleShow:true
+  })
+	</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "creabine-commentator",
+  "version": "1.0.0",
+  "description": "一款简单的评论轮播展示插件",
+  "main": "gulpfile.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "gulp-rename": "^1.2.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Creabine",
+  "license": "ISC"
+}
