@@ -31,6 +31,7 @@ var Commentator = new CreabineCommentator({
 ### Options
 | name          | type         | default         | required   |
 | --------      | ---------    |:----------:     | ----------:| 
+| root          | String       | NaN             |  yes       |
 | comments      | Object array | NaN             |  yes       |
 | logos         | Array    	   | NaN             |  yes       |
 | width         | number 	   | 300             |  no        |
