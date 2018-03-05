@@ -1,6 +1,6 @@
 # Creabine Commentator
 ## 介绍
-一款简单的评论轮播展示插件。 [example](http://creabine.info/mywebsite/demo/Creabine-Commentator.html)
+一款简单的评论轮播展示插件。 [example](https://creabine.github.io/mywebsite/demo/Creabine-Commentator.html)
 ## 使用
 1 引用文件：
 
